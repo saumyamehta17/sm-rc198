@@ -23,26 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="10" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1005">
-              <folding>
-                <marker date="1388772134375" expanded="true" signature="464:1719" placeholder="development:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="825">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,10 +59,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_individual.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit_individual.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/edit_individual.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="327" selection-end="327" vertical-scroll-proportion="0.17676768" vertical-offset="0" max-vertical-offset="594">
+            <state line="7" column="38" selection-start="327" selection-end="327" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
               <folding />
             </state>
           </provider>
@@ -136,6 +134,8 @@
         <option value="$PROJECT_DIR$/app/views/posts/_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/edit_individual.html.erb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -464,7 +464,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="10" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1005">
           <folding>
-            <marker date="1388772134375" expanded="true" signature="464:1719" placeholder="development:" />
+            <marker date="1388772134375" expanded="true" signature="-1:-1" placeholder="development:" />
           </folding>
         </state>
       </provider>
@@ -515,7 +515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="10" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1005">
           <folding>
-            <marker date="1388772134375" expanded="true" signature="464:1719" placeholder="development:" />
+            <marker date="1388772134375" expanded="true" signature="-1:-1" placeholder="development:" />
           </folding>
         </state>
       </provider>
@@ -585,7 +585,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/edit_individual.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="327" selection-end="327" vertical-scroll-proportion="0.17676768" vertical-offset="0" max-vertical-offset="594">
+        <state line="7" column="38" selection-start="327" selection-end="327" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,23 @@
+<h3>Edit Multiple Posts</h3>
+<%= simple_form_for :post, :url => update_multiple_posts_path, :method => :put do |f| %>
+    <ul>
+      <% for post in @posts %>
+          <li>
+            <%#= f.hidden_field "post_ids[]" , :value =>  %>
+            <%= hidden_field_tag "post_ids[]", post.id %>
+            <%=  post.name %>
+          </li>
+      <% end %>
+    </ul>
+
+    <div class="field">
+      <%= f.input :name %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>
+
+
+
+

@@ -89,6 +89,10 @@ class PostsController < ApplicationController
       render 'edit_individual'
     end
   end
+  #sample action to learn routes
+  def about
+
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_post

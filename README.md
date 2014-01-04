@@ -1,5 +1,7 @@
+Railscast sm-rc198  and sm-rc203
+==================================
 Railscast sm-rc198
-=================
+-------------------
 Updating Selected posts at one click
 ----------------------------------
 
@@ -30,6 +32,12 @@ update only those fields which want
 see posts/index.html.erb
 ```
 Rails server
+```
+Railscast 203
+---------------
+logic for routes
+```
+see routes.rb
 ```
 rails s
 ```

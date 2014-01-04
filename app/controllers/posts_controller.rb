@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :set_post, only: [:show, :edit, :update, :destroy, :comment]
 
   # GET /posts
   # GET /posts.json
@@ -93,6 +93,17 @@ class PostsController < ApplicationController
   def about
 
   end
+
+  #Railscast 204
+  def comment
+    @comments = @post.comments.all
+    unless params[:"/comment/#{params[:id]}"].blank?
+      @name = params[:"/comment/#{params[:id]}"][:name]
+      @content = params[:"/comment/#{params[:id]}"][:content]
+      @post.comments.create(name: @name, content: @content)
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_post

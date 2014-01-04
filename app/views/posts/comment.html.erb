@@ -1,0 +1,22 @@
+<% unless @comments.nil? %>
+    <h3>All Comments</h3>
+    <table border="1px solid blue" class="striped">
+        <% @comments.each do |comment| %>
+           <tr>
+           <td><%= comment.name.html_safe %><br/></td>
+           <td><%=raw comment.content %></td>
+           </tr>
+        <% end %>
+    </table>
+<% end %>
+
+<h3>Create Comments</h3>
+<%= form_for comment_path, method: :get do |f| %>
+    <%= f.label 'name' %>
+    <%= f.text_field :name %>
+
+    <%= f.label 'Content' %>
+    <%= f.text_field :content %>
+
+    <%= f.submit 'create comment' , :class => 'btn btn-mini' %>
+<% end %>

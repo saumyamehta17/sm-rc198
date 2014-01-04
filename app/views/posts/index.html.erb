@@ -16,6 +16,7 @@
             <td><%= check_box_tag "post_ids[]" , post.id %></td>
             <td><%= post.name %></td>
             <td>
+              <%= link_to 'comments', comment_path(post), :class => 'btn btn-mini' %>
               <%= link_to t('.edit', :default => t("helpers.links.edit")),
                           edit_post_path(post), :class => 'btn btn-mini' %>
               <%= link_to t('.destroy', :default => t("helpers.links.destroy")),

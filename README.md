@@ -1,0 +1,35 @@
+Railscast sm-rc198
+=================
+Updating Selected posts at one click
+----------------------------------
+
+TO check posts object with same value
+```
+see sm-rc165 or action edit_multiple and update_multiple
+see routes.rb
+```
+Git clone
+```
+git clone
+```
+Scaffold
+```
+#todo
+```
+Update method
+```
+It will help to update with a single line , but dont support validation
+see posts controller
+```
+see applied validation in action update_individual
+```
+reject {|p| p.errors.empty?}
+```
+update only those fields which want
+```
+see posts/index.html.erb
+```
+Rails server
+```
+rails s
+```

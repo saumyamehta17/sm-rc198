@@ -1,12 +1,13 @@
-
+<%- model_class = Post -%>
 <h3>Edit Posts</h3>
 <!--As form_for work on single object so form_tag is used-->
 <%= simple_form_for :post, :url => update_individual_posts_path, method: :put do |d| %>
     <% @posts.each do |post| %>
-       <%= fields_for "posts[]" , post do |f| %>
+        <!--form builder-->
+       <%= simple_fields_for "posts[]" , post do |f| %>
             <h5><%= post.name %></h5>
             <%= render 'fields' , f: f %>
        <% end %>
     <% end %>
-    <%= d.submit %>
+    <%= d.submit 'Update posts' %>
 <% end %>

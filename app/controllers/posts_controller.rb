@@ -80,7 +80,14 @@ class PostsController < ApplicationController
   end
 
   def update_individual
-
+    #update all posts with single line
+    @posts = Post.update(params[:posts].keys, params[:posts].values).reject {|p| p.errors.empty?}
+    if @posts.empty?
+      flash[:notice] = "Posts updated"
+      redirect_to posts_path
+    else
+      render 'edit_individual'
+    end
   end
   private
     # Use callbacks to share common setup or constraints between actions.
